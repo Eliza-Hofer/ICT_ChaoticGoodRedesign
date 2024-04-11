@@ -30,6 +30,14 @@ function displayEvents(events) {
         eventsList.appendChild(eventElement);
     });
 }
+.then(data => {
+    console.log('API response:', data);
+    if (data && data.data) {
+        displayEvents(data.data);
+    } else {
+        console.error('Invalid data received:', data);
+    }
+})
 
 // Call the fetchFacebookEvents function when the page loads
 window.onload = fetchFacebookEvents;
