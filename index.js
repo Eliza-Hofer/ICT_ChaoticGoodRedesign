@@ -21,8 +21,8 @@ function openCity(evt, cityName) {
 
 // Function to fetch Facebook events
 function fetchFacebookEvents() {
-    var pageId = "YOUR_PAGE_ID";
-    var accessToken = "YOUR_ACCESS_TOKEN";
+    var pageId = "300846029770601";
+    var accessToken = "EAA41PCIY4msBO8uqEMKHrzISXYQiN3BdViNLjd2Ann6COH4SSIZCZCZACzIGOTCgKeEr929gsm0fZBFAWELKhJ1WyALwaGSFTQZAmoL614p4Ty8mfyIOqAd41bMbTi6YaYDZABZB2pGtu5S7PJhHawtqG2Qt80w8yx0SG9hY0p3gZBCFy3xlUdQN7IhW4sQZCWfmhhkD9W6rYBpizypozZCFoZD";
     var apiUrl = "https://graph.facebook.com/v12.0/" + pageId + "/events?access_token=" + accessToken;
 
     fetch(apiUrl)
