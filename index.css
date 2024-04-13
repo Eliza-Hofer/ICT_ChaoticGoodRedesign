@@ -14,7 +14,26 @@
   border: 1px solid #ccc;
   background-color: #f1fff1;
 }
+.d20-button {
+        display: inline-block;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
 
+    .d20-button:hover {
+        background-color: #555;
+    }
+
+    /* Style the d20 icon */
+    .d20-icon {
+        margin-right: 5px;
+    }
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
