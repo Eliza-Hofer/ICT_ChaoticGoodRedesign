@@ -1,3 +1,41 @@
+/* index.css */
+
+/* Container for the entire section */
+.container2 {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 20px;
+}
+
+/* Style the images */
+img {
+    border: 2px solid #ddd; /* Add a border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin: 10px; /* Add some spacing around the images */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Style the headings */
+h1.title_heading {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h3.Title_Heading_2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Style the list items */
+ul {
+    list-style: none;
+    padding-left: 100px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
 .title_heading {
     text-align: center
     
