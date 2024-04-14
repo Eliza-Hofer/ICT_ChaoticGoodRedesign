@@ -28,7 +28,7 @@ h3.Title_Heading_2 {
 /* Style the list items */
 ul {
     list-style: none;
-    padding-left: 100px;
+    padding-left: 0px;
 }
 
 li {
