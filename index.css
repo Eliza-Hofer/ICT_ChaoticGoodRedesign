@@ -25,7 +25,7 @@ p {
 }
 /* Container for the entire section */
 .container2 {
-    background-color: #f9f9f9; /* Light gray background */
+    background-color: #e8a6f5; /* Light gray background */
     padding: 20px;
 }
 
@@ -73,7 +73,7 @@ li {
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f1fff1;
+  background-color: #e8a6f5;
 }
 .d20-button {
         display: inline-block;
