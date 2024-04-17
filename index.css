@@ -7,10 +7,14 @@ body {
     font-family: Arial, sans-serif;
     background-color: #e8a6f5; /* pastel pink background. */
 }
-
+.overlay {
+ font-size: 50px;
+ margin-bottom: 20px;
+ color: purple;
+}
 /* Style the headings */
 h1 {
-    font-size: 28px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
